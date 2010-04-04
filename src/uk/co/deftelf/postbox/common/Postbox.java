@@ -74,6 +74,7 @@ public class Postbox implements Comparable<Postbox> {
         return distance;
     }
 
+    // Sort order ascending distance from source 
     @Override
     public int compareTo(Postbox o) {
         return (int)((distance - o.getDistance()) * 1000);
