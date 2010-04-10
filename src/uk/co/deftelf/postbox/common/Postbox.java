@@ -3,7 +3,7 @@ package uk.co.deftelf.postbox.common;
 import java.sql.Time;
 import java.util.Calendar;
 
-public class Postbox implements Comparable<Postbox> {
+public class Postbox implements Comparable<Postbox>, java.io.Serializable {
     
     
     protected double latitude;
